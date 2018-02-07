@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -38,11 +39,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FizzBuzzer.cs" />
+    <Compile Include="MockStubs\Copier.cs" />
+    <Compile Include="MockStubs\IDestination.cs" />
+    <Compile Include="MockStubs\ISource.cs" />
+    <Compile Include="PaymentGateway\IPayGateway.cs" />
+    <Compile Include="PaymentGateway\PayDetail.cs" />
+    <Compile Include="PaymentGateway\PaymentDetail.cs" />
+    <Compile Include="PaymentGateway\PaymentService.cs" />
+    <Compile Include="PaymentGateway\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RomanNumbers.cs" />
     <Compile Include="Stack.cs" />
     <Compile Include="TicTacToe.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
