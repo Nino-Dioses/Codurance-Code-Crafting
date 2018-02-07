@@ -38,6 +38,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankPrint\AccountService.cs" />
+    <Compile Include="BankPrint\Formatter.cs" />
+    <Compile Include="BankPrint\IDater.cs" />
+    <Compile Include="BankPrint\IPrinter.cs" />
+    <Compile Include="BankPrint\IRepository.cs" />
+    <Compile Include="BankPrint\RepoItem.cs" />
+    <Compile Include="BankPrint\RepositoryService.cs" />
     <Compile Include="FizzBuzzer.cs" />
     <Compile Include="MockStubs\Copier.cs" />
     <Compile Include="MockStubs\IDestination.cs" />
