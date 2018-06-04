@@ -78,7 +78,7 @@ namespace CCLibrary.Tests.BankPrint
         }
 
         [Fact]
-        public void Save_two_datat()
+        public void Save_two_data()
         {
             var daterMock = A.Fake<IDater>();
             RepositoryService repository = new RepositoryService();
